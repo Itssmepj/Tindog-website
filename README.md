@@ -1,2 +1,2 @@
 # css-Tindog-website
-Made a dating website "Tindog" for Dogs.
+Built a dating website "Tindog" for Dogs.
