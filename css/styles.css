@@ -207,7 +207,7 @@ p{
     padding-bottom: 100px;
 }
 
-@media (max-width: 1356px) {
+/* @media (max-width: 1356px) {
 
     #title{
         text-align: center;
@@ -217,8 +217,139 @@ p{
         position: static;
         transform: rotate(0);
     }
+
+} */
+
+@media (max-width: 1356px) {
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+
     .container-fluid {
-    padding: 25px 25px 0;
-  }
-}
+      padding: 25px 25px 0;
+    }
+
+    .big-heading {
+      line-height: 1.5;
+      font-weight: 900;
+      font-size: 5.5rem;
+    }
+
+    .title-image {
+      width: 46%;
+    }
+    
+    .download-button{
+        font-size: 36px;
+    }
+
+    #features .row{
+        font-size: 35px;
+    }
+    
+    .features-emoji {
+        font-size: 60px;
+    }
+    
+    .feature-main-heading {
+        font-size: 3rem;
+    }
+    
+    #features p{
+        margin-bottom: 53px;
+    }
+
+    #testimonials {
+        height: 86rem;
+    }
+    
+    .testimonial-heading {
+        font-size: 4.3rem;
+    }
+    
+    .testimonial-image {
+        width: 35%;
+        margin: 49px;
+    }
+    
+    .carousel-item em{
+        font-size: 29px;
+    }
+    
+    #press {
+        bottom: 356px;
+    }
+    
+    .press-logo {
+        width: 35%;
+        margin: 25px 27px 46px;
+    }
+    
+    #pricing { 
+        bottom: 307px;
+    }
+    
+    .pricing-heading {
+        font-size: 5rem;
+        margin-bottom: 26px;
+    }
+    
+    .pricing-p {
+        font-size: 32px;
+    }
+    
+    #pricing .row {
+        width: 126%;
+        margin-left: -94px;
+    }
+    
+    .card-main-head {
+        font-weight: 600;
+        font-size: 1.9rem;
+        margin-top: 6px;
+    }
+
+    .class-body h2{
+        margin-top: 16px;
+    }
+
+    .class-body p{
+        font-size: 29px;
+    }
+
+    .signup{
+        font-size: 31px;
+    }
+
+    #cta {
+        padding-top: 231px;
+        padding-bottom: 225px;
+        bottom: 129px;
+        margin-top: -155px;
+    }
+        
+    .big-heading {
+        font-size: 5.5rem;
+    }
+        
+    .download-buttons{
+        font-size: 36px;
+        margin-top: 70px;
+    }
+
+    .footer-icon{
+        font-size: 33px;
+    }
+    
+    .copyright {
+        padding-top: 12px;
+        padding-bottom: 136px;
+        font-size: 26px;
+    }
+
 }
