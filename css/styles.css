@@ -3,7 +3,7 @@ body{
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6,{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,7 +71,8 @@ p{
 .nav-link{
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100
+    font-weight: 100;
+    color: white;
 
 }
 
@@ -207,20 +208,24 @@ p{
     padding-bottom: 100px;
 }
 
-/* @media (max-width: 1356px) {
-
-    #title{
-        text-align: center;
-    }
-    
-    .title-image{
-        position: static;
-        transform: rotate(0);
-    }
-
-} */
 
 @media (max-width: 1356px) {
+    .navbar-toggler{
+      margin-left: 15px;
+      font-size: 3.5rem;
+    }
+      
+    .navbar-brand{
+      margin-top: 20px;
+      margin-left: 28px;
+      font-size: 3.5rem;
+    }
+
+    .nav-link{
+      font-size: 42px;
+      color: #ffffffbd;
+    }
+
     #title {
       text-align: center;
     }
@@ -228,6 +233,8 @@ p{
     .title-image {
       position: static;
       transform: rotate(0);
+      width: 47%;
+      margin-top: 33px;
     }
 
     .container-fluid {
@@ -237,19 +244,21 @@ p{
     .big-heading {
       line-height: 1.5;
       font-weight: 900;
-      font-size: 5.5rem;
-    }
-
-    .title-image {
-      width: 46%;
+      font-size: 6.2rem;
+      margin-top: 41px;
     }
     
     .download-button{
         font-size: 36px;
+        margin-top: 66px;
+    }   
+
+    #features {
+        padding: 22% 15%;
     }
 
     #features .row{
-        font-size: 35px;
+        font-size: 40px;
     }
     
     .features-emoji {
