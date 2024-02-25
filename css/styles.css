@@ -217,4 +217,8 @@ p{
         position: static;
         transform: rotate(0);
     }
+    .container-fluid {
+    padding: 25px 25px 0;
+  }
+}
 }
